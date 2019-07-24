@@ -42,3 +42,32 @@ var firstName = lastNameTrier("Shivam");
 var fullName = firstName("Anand");
 
 // 5
+
+function storyWriter() {
+  let story = "";
+  let writerMethod = {
+    addWords: storyLine => {
+      story += storyLine;
+      console.log(story);
+    },
+    erase: () => {
+      story = "";
+      console.log(story);
+    }
+  };
+  return writerMethod;
+}
+
+let storyOfOurPlanet = storyWriter();
+storyOfOurPlanet.addWords("14 billions years ago! ");
+storyOfOurPlanet.addWords("There was a big bag. ");
+storyOfOurPlanet.addWords(
+  "And for the first time universe came into existence. "
+);
+storyOfOurPlanet.addWords("But our planet is not created yet. ");
+storyOfOurPlanet.addWords("And the story continues. ");
+storyOfOurPlanet.addWords(
+  "Now let's erase our universe along with this story."
+);
+
+storyOfOurPlanet.erase();
