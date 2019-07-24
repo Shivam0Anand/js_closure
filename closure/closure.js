@@ -58,16 +58,19 @@ function storyWriter() {
   return writerMethod;
 }
 
-let storyOfOurPlanet = storyWriter();
-storyOfOurPlanet.addWords("14 billions years ago! ");
-storyOfOurPlanet.addWords("There was a big bag. ");
-storyOfOurPlanet.addWords(
-  "And for the first time universe came into existence. "
+let taj = storyWriter();
+taj.addWords(
+  "The glorious Taj Mahal was built as the Symbol of Love between Shah Jahan and Mumtaz Mahal."
 );
-storyOfOurPlanet.addWords("But our planet is not created yet. ");
-storyOfOurPlanet.addWords("And the story continues. ");
-storyOfOurPlanet.addWords(
-  "Now let's erase our universe along with this story."
+taj.addWords("Shah Jahan was the son of Jehangir the fourth Mughal emperor.");
+taj.addWords(
+  "Shah Jahan felt in love with Arjumand Banu Begum (Mumtaz) at that time and he asked his father he wanted to marry her."
+);
+taj.addWords(
+  "After five years Shah Jahan and Mumtaz Mahal were married in the year 1612."
+);
+taj.addWords(
+  "In the year 1628, Shah Jahan became the Emperor and he changed her name as Mumtaz Mahal it means “Jewel of the Palace”."
 );
 
-storyOfOurPlanet.erase();
+taj.erase();
